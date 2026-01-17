@@ -7,12 +7,12 @@
 ## 🎮 Download & Play
 To download the game, click the link for your OS and then click the **"View Raw"** button on the next page.
 
-* **[Download for Windows](YOUR_LINK_HERE)**
-* **[Download for Linux](YOUR_LINK_HERE)**
+* **[Download for Windows](https://github.com/hadirida46/SKY-MISSIONS/raw/main/SKY_MISSIONS_Windows.zip)**
+* **[Download for Linux](https://github.com/hadirida46/SKY-MISSIONS/raw/main/SKY%20MISIONS%20For%20Linux.tar.gz)**
 
 ---
 
-## 🖼️ Main Menu
+##  Main Menu
 ![Main Menu](screenshots/Main%20Menu.png)
 
 ---
