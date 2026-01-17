@@ -1,0 +1,136 @@
+750145.onnx 
+
+(mlagents39) hadi@hadi:~/unity_projects/Delivery Drone/Assets/ML-Agents/Timers/config$ mlagents-learn DroneTrainer.yaml --run-id=drone_v1 --resume
+/home/hadi/mlagents39/lib/python3.9/site-packages/mlagents/torch_utils/torch.py:4: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+
+            ┐  ╖
+        ╓╖╬│╡  ││╬╖╖
+    ╓╖╬│││││┘  ╬│││││╬╖
+ ╖╬│││││╬╜        ╙╬│││││╖╖                               ╗╗╗
+ ╬╬╬╬╖││╦╖        ╖╬││╗╣╣╣╬      ╟╣╣╬    ╟╣╣╣             ╜╜╜  ╟╣╣
+ ╬╬╬╬╬╬╬╬╖│╬╖╖╓╬╪│╓╣╣╣╣╣╣╣╬      ╟╣╣╬    ╟╣╣╣ ╒╣╣╖╗╣╣╣╗   ╣╣╣ ╣╣╣╣╣╣ ╟╣╣╖   ╣╣╣
+ ╬╬╬╬┐  ╙╬╬╬╬│╓╣╣╣╝╜  ╫╣╣╣╬      ╟╣╣╬    ╟╣╣╣ ╟╣╣╣╙ ╙╣╣╣  ╣╣╣ ╙╟╣╣╜╙  ╫╣╣  ╟╣╣
+ ╬╬╬╬┐     ╙╬╬╣╣      ╫╣╣╣╬      ╟╣╣╬    ╟╣╣╣ ╟╣╣╬   ╣╣╣  ╣╣╣  ╟╣╣     ╣╣╣┌╣╣╜
+ ╬╬╬╜       ╬╬╣╣      ╙╝╣╣╬      ╙╣╣╣╗╖╓╗╣╣╣╜ ╟╣╣╬   ╣╣╣  ╣╣╣  ╟╣╣╦╓    ╣╣╣╣╣
+ ╙   ╓╦╖    ╬╬╣╣   ╓╗╗╖            ╙╝╣╣╣╣╝╜   ╘╝╝╜   ╝╝╝  ╝╝╝   ╙╣╣╣    ╟╣╣╣
+   ╩╬╬╬╬╬╬╦╦╬╬╣╣╗╣╣╣╣╣╣╣╝                                             ╫╣╣╣╣
+      ╙╬╬╬╬╬╬╬╣╣╣╣╣╣╝╜
+          ╙╬╬╬╣╣╣╜
+             ╙
+        
+ Version information:
+  ml-agents: 0.30.0,
+  ml-agents-envs: 0.30.0,
+  Communicator API: 1.5.0,
+  PyTorch: 1.11.0+cu102
+[INFO] Listening on port 5004. Start training by pressing the Play button in the Unity Editor.
+[INFO] Connected to Unity environment with package version 2.0.2 and communication version 1.5.0
+[INFO] Connected new brain: DroneBrain?team=0
+[INFO] Hyperparameters for behavior name DroneBrain: 
+	trainer_type:	ppo
+	hyperparameters:	
+	  batch_size:	2048
+	  buffer_size:	20480
+	  learning_rate:	0.0003
+	  beta:	0.005
+	  epsilon:	0.2
+	  lambd:	0.95
+	  num_epoch:	3
+	  shared_critic:	False
+	  learning_rate_schedule:	linear
+	  beta_schedule:	linear
+	  epsilon_schedule:	linear
+	network_settings:	
+	  normalize:	True
+	  hidden_units:	256
+	  num_layers:	3
+	  vis_encode_type:	simple
+	  memory:	None
+	  goal_conditioning_type:	hyper
+	  deterministic:	False
+	reward_signals:	
+	  extrinsic:	
+	    gamma:	0.99
+	    strength:	1.0
+	    network_settings:	
+	      normalize:	False
+	      hidden_units:	128
+	      num_layers:	2
+	      vis_encode_type:	simple
+	      memory:	None
+	      goal_conditioning_type:	hyper
+	      deterministic:	False
+	init_path:	None
+	keep_checkpoints:	5
+	checkpoint_interval:	100000
+	max_steps:	750000
+	time_horizon:	1000
+	summary_freq:	10000
+	threaded:	True
+	self_play:	None
+	behavioral_cloning:	None
+[INFO] Resuming from results/drone_v1/DroneBrain.
+[INFO] Resuming training from step 228450.
+[INFO] DroneBrain. Step: 230000. Time Elapsed: 19.643 s. Mean Reward: 78.161. Std of Reward: 4.872. Training.
+[INFO] DroneBrain. Step: 240000. Time Elapsed: 34.475 s. Mean Reward: 77.370. Std of Reward: 11.223. Training.
+[INFO] DroneBrain. Step: 250000. Time Elapsed: 50.906 s. Mean Reward: 68.828. Std of Reward: 13.736. Training.
+[INFO] DroneBrain. Step: 260000. Time Elapsed: 64.106 s. Mean Reward: 68.923. Std of Reward: 17.200. Training.
+[INFO] DroneBrain. Step: 270000. Time Elapsed: 83.857 s. Mean Reward: 71.442. Std of Reward: 13.040. Training.
+[INFO] DroneBrain. Step: 280000. Time Elapsed: 96.223 s. Mean Reward: 75.125. Std of Reward: 12.190. Training.
+[INFO] DroneBrain. Step: 290000. Time Elapsed: 117.323 s. Mean Reward: 70.142. Std of Reward: 14.282. Training.
+[INFO] DroneBrain. Step: 300000. Time Elapsed: 138.028 s. Mean Reward: 70.623. Std of Reward: 13.467. Training.
+[INFO] Exported results/drone_v1/DroneBrain/DroneBrain-299681.onnx
+	[INFO] DroneBrain. Step: 310000. Time Elapsed: 151.492 s. Mean Reward: 74.245. Std of Reward: 8.881. Training.
+[INFO] DroneBrain. Step: 320000. Time Elapsed: 167.423 s. Mean Reward: 72.806. Std of Reward: 8.292. Training.
+[INFO] DroneBrain. Step: 330000. Time Elapsed: 180.623 s. Mean Reward: 73.566. Std of Reward: 9.307. Training.
+[INFO] DroneBrain. Step: 340000. Time Elapsed: 197.170 s. Mean Reward: 72.581. Std of Reward: 7.069. Training.
+[INFO] DroneBrain. Step: 350000. Time Elapsed: 212.100 s. Mean Reward: 74.481. Std of Reward: 5.388. Training.
+[INFO] DroneBrain. Step: 360000. Time Elapsed: 227.243 s. Mean Reward: 74.253. Std of Reward: 4.750. Training.
+[INFO] DroneBrain. Step: 370000. Time Elapsed: 240.575 s. Mean Reward: 73.952. Std of Reward: 7.828. Training.
+[INFO] DroneBrain. Step: 380000. Time Elapsed: 258.196 s. Mean Reward: 72.976. Std of Reward: 6.832. Training.
+[INFO] DroneBrain. Step: 390000. Time Elapsed: 270.265 s. Mean Reward: 72.325. Std of Reward: 4.732. Training.
+[INFO] DroneBrain. Step: 400000. Time Elapsed: 287.093 s. Mean Reward: 73.379. Std of Reward: 4.435. Training.
+[INFO] Exported results/drone_v1/DroneBrain/DroneBrain-399698.onnx
+[INFO] DroneBrain. Step: 410000. Time Elapsed: 301.184 s. Mean Reward: 72.603. Std of Reward: 4.064. Training.
+[INFO] DroneBrain. Step: 420000. Time Elapsed: 318.393 s. Mean Reward: 70.795. Std of Reward: 5.672. Training.
+[INFO] DroneBrain. Step: 430000. Time Elapsed: 331.560 s. Mean Reward: 71.947. Std of Reward: 5.679. Training.
+[INFO] DroneBrain. Step: 440000. Time Elapsed: 349.110 s. Mean Reward: 71.405. Std of Reward: 5.569. Training.
+[INFO] DroneBrain. Step: 450000. Time Elapsed: 361.742 s. Mean Reward: 70.363. Std of Reward: 4.657. Training.
+[INFO] DroneBrain. Step: 460000. Time Elapsed: 378.790 s. Mean Reward: 69.280. Std of Reward: 5.257. Training.
+[INFO] DroneBrain. Step: 470000. Time Elapsed: 392.416 s. Mean Reward: 70.077. Std of Reward: 5.756. Training.
+[INFO] DroneBrain. Step: 480000. Time Elapsed: 410.620 s. Mean Reward: 70.303. Std of Reward: 5.049. Training.
+[INFO] DroneBrain. Step: 490000. Time Elapsed: 422.366 s. Mean Reward: 69.861. Std of Reward: 5.756. Training.
+[INFO] DroneBrain. Step: 500000. Time Elapsed: 439.593 s. Mean Reward: 68.677. Std of Reward: 5.061. Training.
+[INFO] Exported results/drone_v1/DroneBrain/DroneBrain-499827.onnx
+[INFO] DroneBrain. Step: 510000. Time Elapsed: 452.417 s. Mean Reward: 69.984. Std of Reward: 3.720. Training.
+[INFO] DroneBrain. Step: 520000. Time Elapsed: 470.450 s. Mean Reward: 69.108. Std of Reward: 5.276. Training.
+[INFO] DroneBrain. Step: 530000. Time Elapsed: 484.082 s. Mean Reward: 68.830. Std of Reward: 4.416. Training.
+[INFO] DroneBrain. Step: 540000. Time Elapsed: 502.455 s. Mean Reward: 70.609. Std of Reward: 3.694. Training.
+[INFO] DroneBrain. Step: 550000. Time Elapsed: 513.684 s. Mean Reward: 68.948. Std of Reward: 4.313. Training.
+[INFO] DroneBrain. Step: 560000. Time Elapsed: 533.227 s. Mean Reward: 68.326. Std of Reward: 5.338. Training.
+[INFO] DroneBrain. Step: 570000. Time Elapsed: 542.915 s. Mean Reward: 67.020. Std of Reward: 5.458. Training.
+[INFO] DroneBrain. Step: 580000. Time Elapsed: 556.464 s. Mean Reward: 68.985. Std of Reward: 3.757. Training.
+[INFO] DroneBrain. Step: 590000. Time Elapsed: 573.068 s. Mean Reward: 69.526. Std of Reward: 5.158. Training.
+[INFO] DroneBrain. Step: 600000. Time Elapsed: 585.570 s. Mean Reward: 68.736. Std of Reward: 5.162. Training.
+[INFO] Exported results/drone_v1/DroneBrain/DroneBrain-599930.onnx
+[INFO] DroneBrain. Step: 610000. Time Elapsed: 601.894 s. Mean Reward: 69.179. Std of Reward: 4.251. Training.
+[INFO] DroneBrain. Step: 620000. Time Elapsed: 614.941 s. Mean Reward: 68.757. Std of Reward: 5.235. Training.
+[INFO] DroneBrain. Step: 630000. Time Elapsed: 631.477 s. Mean Reward: 67.945. Std of Reward: 4.609. Training.
+[INFO] DroneBrain. Step: 640000. Time Elapsed: 644.806 s. Mean Reward: 67.962. Std of Reward: 5.281. Training.
+[INFO] DroneBrain. Step: 650000. Time Elapsed: 661.055 s. Mean Reward: 68.408. Std of Reward: 5.193. Training.
+[INFO] DroneBrain. Step: 660000. Time Elapsed: 673.832 s. Mean Reward: 67.547. Std of Reward: 5.188. Training.
+[INFO] DroneBrain. Step: 670000. Time Elapsed: 690.820 s. Mean Reward: 66.721. Std of Reward: 4.938. Training.
+[INFO] DroneBrain. Step: 680000. Time Elapsed: 703.882 s. Mean Reward: 67.405. Std of Reward: 5.000. Training.
+[INFO] DroneBrain. Step: 690000. Time Elapsed: 719.818 s. Mean Reward: 67.333. Std of Reward: 4.970. Training.
+[INFO] DroneBrain. Step: 700000. Time Elapsed: 732.844 s. Mean Reward: 65.652. Std of Reward: 9.133. Training.
+[INFO] Exported results/drone_v1/DroneBrain/DroneBrain-699875.onnx
+[INFO] DroneBrain. Step: 710000. Time Elapsed: 749.711 s. Mean Reward: 66.687. Std of Reward: 4.754. Training.
+[INFO] DroneBrain. Step: 720000. Time Elapsed: 762.711 s. Mean Reward: 66.234. Std of Reward: 4.317. Training.
+[INFO] DroneBrain. Step: 730000. Time Elapsed: 779.120 s. Mean Reward: 65.726. Std of Reward: 4.476. Training.
+[INFO] DroneBrain. Step: 740000. Time Elapsed: 792.349 s. Mean Reward: 63.372. Std of Reward: 13.541. Training.
+[INFO] DroneBrain. Step: 750000. Time Elapsed: 808.794 s. Mean Reward: 66.423. Std of Reward: 11.059. Training.
+[INFO] Exported results/drone_v1/DroneBrain/DroneBrain-750145.onnx
+[INFO] Copied results/drone_v1/DroneBrain/DroneBrain-750145.onnx to results/drone_v1/DroneBrain.onnx.
+(mlagents39) hadi@hadi:~/unity_projects/Delivery Drone/Assets/ML-Agents/Timers/config$ 
+

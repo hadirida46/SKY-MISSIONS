@@ -1,0 +1,44 @@
+[INFO] DroneBrain. Step: 10000. Time Elapsed: 77.538 s. Mean Reward: -11.300. Std of Reward: 0.000. Training.
+[INFO] DroneBrain. Step: 20000. Time Elapsed: 143.222 s. Mean Reward: -777.297. Std of Reward: 0.000. Training.
+[INFO] DroneBrain. Step: 30000. Time Elapsed: 212.873 s. Mean Reward: -751.585. Std of Reward: 0.000. Training.
+[INFO] DroneBrain. Step: 10000. Time Elapsed: 23.457 s. Mean Reward: -29.112. Std of Reward: 9.723. Training.
+[INFO] DroneBrain. Step: 20000. Time Elapsed: 32.450 s. Mean Reward: -19.115. Std of Reward: 1.514. Training.
+[INFO] DroneBrain. Step: 30000. Time Elapsed: 44.789 s. Mean Reward: -20.815. Std of Reward: 2.735. Training.
+[INFO] DroneBrain. Step: 40000. Time Elapsed: 53.159 s. Mean Reward: -18.592. Std of Reward: 2.250. Training.
+[INFO] DroneBrain. Step: 50000. Time Elapsed: 65.829 s. Mean Reward: -85.027. Std of Reward: 112.324. Training.
+[INFO] DroneBrain. Step: 60000. Time Elapsed: 74.607 s. Mean Reward: -19.802. Std of Reward: 1.292. Training.
+[INFO] DroneBrain. Step: 70000. Time Elapsed: 86.731 s. Mean Reward: -19.169. Std of Reward: 0.596. Training.
+[INFO] DroneBrain. Step: 80000. Time Elapsed: 95.685 s. Mean Reward: -20.372. Std of Reward: 0.416. Training.
+[INFO] DroneBrain. Step: 90000. Time Elapsed: 108.472 s. Mean Reward: -19.480. Std of Reward: 1.756. Training.
+[INFO] DroneBrain. Step: 100000. Time Elapsed: 116.670 s. Mean Reward: -19.421. Std of Reward: 1.752. Training.
+[INFO] Exported results/drone_v1/DroneBrain/DroneBrain-99997.onnx
+[INFO] DroneBrain. Step: 110000. Time Elapsed: 129.391 s. Mean Reward: -19.942. Std of Reward: 1.406. Training.
+[INFO] DroneBrain. Step: 120000. Time Elapsed: 138.337 s. Mean Reward: -18.046. Std of Reward: 0.494. Training.
+[INFO] DroneBrain. Step: 130000. Time Elapsed: 150.433 s. Mean Reward: -933.827. Std of Reward: 610.248. Training.
+[INFO] DroneBrain. Step: 140000. Time Elapsed: 159.305 s. Mean Reward: -16.361. Std of Reward: 1.218. Training.
+[INFO] DroneBrain. Step: 150000. Time Elapsed: 171.195 s. Mean Reward: -17.419. Std of Reward: 0.533. Training.
+[INFO] DroneBrain. Step: 160000. Time Elapsed: 180.113 s. Mean Reward: -21.833. Std of Reward: 2.029. Training.
+[INFO] DroneBrain. Step: 170000. Time Elapsed: 192.810 s. Mean Reward: -20.483. Std of Reward: 2.877. Training.
+[INFO] DroneBrain. Step: 180000. Time Elapsed: 200.937 s. Mean Reward: -419.834. Std of Reward: 567.397. Training.
+[INFO] DroneBrain. Step: 190000. Time Elapsed: 213.596 s. Mean Reward: -20.706. Std of Reward: 1.946. Training.
+[INFO] DroneBrain. Step: 200000. Time Elapsed: 222.783 s. Mean Reward: -19.776. Std of Reward: 1.224. Training.
+[INFO] Exported results/drone_v1/DroneBrain/DroneBrain-199998.onnx
+[INFO] DroneBrain. Step: 210000. Time Elapsed: 235.409 s. Mean Reward: -21.188. Std of Reward: 0.571. Training.
+[INFO] DroneBrain. Step: 220000. Time Elapsed: 244.271 s. Mean Reward: -18.115. Std of Reward: 0.689. Training.
+[INFO] DroneBrain. Step: 230000. Time Elapsed: 257.872 s. Mean Reward: -17.665. Std of Reward: 1.813. Training.
+[INFO] DroneBrain. Step: 240000. Time Elapsed: 266.418 s. Mean Reward: -17.836. Std of Reward: 2.309. Training.
+[INFO] DroneBrain. Step: 250000. Time Elapsed: 280.944 s. Mean Reward: -20.004. Std of Reward: 0.749. Training.
+[INFO] DroneBrain. Step: 260000. Time Elapsed: 289.698 s. Mean Reward: -1001.389. Std of Reward: 737.265. Training.
+[INFO] DroneBrain. Step: 270000. Time Elapsed: 299.320 s. Mean Reward: -17.488. Std of Reward: 2.442. Training.
+
+[INFO] DroneBrain. Step: 10000. Time Elapsed: 38.402 s. Mean Reward: 2.147. Std of Reward: 0.000. Training.
+[INFO] DroneBrain. Step: 20000. Time Elapsed: 51.020 s. Mean Reward: 9.255. Std of Reward: 7.394. Training.
+[INFO] DroneBrain. Step: 30000. Time Elapsed: 68.277 s. Mean Reward: 15.603. Std of Reward: 9.615. Training.
+[INFO] DroneBrain. Step: 40000. Time Elapsed: 80.950 s. Mean Reward: 28.856. Std of Reward: 7.258. Training.
+[INFO] DroneBrain. Step: 50000. Time Elapsed: 93.422 s. Mean Reward: 29.966. Std of Reward: 7.022. Training.
+[INFO] DroneBrain. Step: 60000. Time Elapsed: 110.706 s. Mean Reward: 25.858. Std of Reward: 7.681. Training.
+[INFO] DroneBrain. Step: 70000. Time Elapsed: 123.330 s. Mean Reward: 69.424. Std of Reward: 13.113. Training.
+[INFO] DroneBrain. Step: 80000. Time Elapsed: 145.740 s. Mean Reward: 55.333. Std of Reward: 14.782. Training.
+[INFO] DroneBrain. Step: 90000. Time Elapsed: 158.734 s. Mean Reward: 75.386. Std of Reward: 12.199. Training.
+[INFO] DroneBrain. Step: 100000. Time Elapsed: 175.472 s. Mean Reward: 64.801. Std of Reward: 29.076. Training.
+
