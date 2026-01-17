@@ -12,6 +12,15 @@ To download the game, click the link for your OS and then click the **"View Raw"
 
 ---
 
+## 📄 Project Documentation & Resources
+For a deep dive into the math, training process, and project architecture, refer to the following:
+
+* 📑 **[Project Report (PDF)](https://github.com/hadirida46/SKY-MISSIONS/raw/main/SKY-MISSIONS-Report.pdf)**
+* 📊 **[Presentation Slides (PDF)](https://github.com/hadirida46/SKY-MISSIONS/raw/main/SKY-MISSIONS-Slides.pdf)**
+* 📈 **[Training Logs & Summaries](https://github.com/hadirida46/SKY-MISSIONS/tree/main/logs_summary)**
+
+---
+
 ##  Main Menu
 ![Main Menu](screenshots/Main%20Menu.png)
 
