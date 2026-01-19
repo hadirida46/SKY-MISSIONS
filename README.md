@@ -31,7 +31,7 @@ For a deep dive into the math, training process, and project architecture, refer
 ### 01 – Building Strike (Manual Control)
 * **Purpose:** Compare human control against AI behavior.
 * **Flow:** Navigate the drone into a building and deploy the payload manually.
-* **Controls:** Use **WASD** to fly.
+* **Controls:** **WASD** to fly, **SHIFT** down, **SPACE** up, **ESC** pause menu.
 
 ![Mission 1](screenshots/Building%20Strike.png)
 
@@ -40,8 +40,10 @@ For a deep dive into the math, training process, and project architecture, refer
 ### 02 – Building Strike (AI Assist)
 * **Purpose:** Autonomous drone strike with AI navigation.
 * **Flow:** Drone starts camouflaged, flies to target, strikes, and returns home.
-* **Controls:** * `1` or `2`: Select Target Building
-    * `H`: Return to Home
+* **Controls:**
+  - `1` or `2`: Select Target Building
+  - `H`: Return to Home
+  - `ESC`: Pause Menu
 
 ![Mission 2](screenshots/Building%20Strike%20(AI%20assist).png)
 
@@ -50,8 +52,9 @@ For a deep dive into the math, training process, and project architecture, refer
 ### 03 – Vehicle Hunter (AI Assist)
 * **Purpose:** Target tracking of a moving vehicle.
 * **Flow:** Drone tracks the vehicle autonomously and triggers an engagement sequence.
-* **Controls:** * `C`: Command chase
-    * `A`: Trigger attack
+* **Controls:**
+  - `C`: Command chase
+  - `A`: Trigger attack
 
 ![Mission 3](screenshots/Vehicle%20Hunter.png)
 
@@ -60,7 +63,7 @@ For a deep dive into the math, training process, and project architecture, refer
 ### 04 – Control Vehicle (Avoid Drone)
 * **Purpose:** Evasion scenario against an AI drone.
 * **Flow:** You drive the vehicle; the AI drone hunts you.
-* **Controls:** **WASD** to drive the vehicle.
+* **Controls:** **WASD** to drive the vehicle, **ESC** pause menu.
 
 ![Mission 4](screenshots/Avoid%20Drone.png)
 
